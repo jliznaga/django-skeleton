@@ -1,0 +1,8 @@
+# PRECAUTION: avoid production dependencies that aren't in development
+
+-r ./base.txt
+
+# Static files
+django-storages[boto3]==1.7.1
+
+gunicorn==20.0.4

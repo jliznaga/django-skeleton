@@ -1,0 +1,17 @@
+-r ./base.txt
+coverage==5.4
+factory-boy==3.2.0
+faker==5.8.0
+
+# Code quality
+flake8==3.8.4
+
+# Debugging
+ipdb==0.13.4
+
+# Testing
+mypy==0.761
+pylint==2.6.0
+pytest==6.2.2
+pytest-django==4.1.0
+pytest-sugar==0.9.4
